@@ -1,0 +1,61 @@
+tipe variabel ada 3 : var, let, const
+var => tipe variabel < es6
+let & const => since es6
+
+1. Deklarasi Variabel
+syntax: tipeVar namaVar
+untuk menyatakan bahwa ada variabel baru
+
+2. Assignment Variabel
+untuk mengisikan nilai ke dalam variabel
+syntax: namaVar = nilaiVar
+
+Declaration dan Assignment bisa dipanggil bersamaan
+syntax: tipeVar namaVar = nilaiVar
+
+const
+1. Declaration dan Assignment harus selalu digabung
+2. nilai const selalu tetap
+
+var & let
+1. Declaration dan Assignment bisa dipisah
+2. nilai var & let bisa berubah
+
+saran: gunakan let dibanding var
+
+penulisan variabel
+camelCase = huruf pertama dari setiap kata menggunakan kapital kecuali pada kata pertama
+PascalCase = huruf pertama dari setiap kata menggunakan kapital
+snake_case = spasi diubah menjadi underscore (_)
+
+TIPE DATA
+1. Primitif
+    a. String       => melambangkan sekumpulan karakter ("") 
+    b. Number       => melambangkan sekumpulan angka
+    c. Boolean      => melambangkan suatu nilai logika (true, false)
+    d. null         => melambangkan kekosongan suatu nilai (terdeklarasikan)
+    e. undefined    => melambangkan ketiadaan suatu nilai (tidak terdeklarasikan)
+
+2. Non-Primitif
+    a. function     => melambangkan sekumpulan kode
+    b. object       => melambangkan sekumpulan variabel
+        i.  array   => diwakili dengan index (posisi) dan value (nilai) []
+        ii. object  => diwakili dengan key (posisi) dan value (nilai)   {}
+
+Array
+index ditentukan oleh JS
+index melambangkan posisi urutan data dalam suatu array
+[1,2,3,4,5]
+index dimulai dari 0
+urutan data signifikan
+value bisa berisikan tipe data apapun
+pemanggilan: namaArray[index]
+
+Object
+key ditentukan oleh programmer
+urutan data tidak signifikan
+key melambangkan letak data pada suatu object
+{key: value, name: Fazztrack, batch: 14}
+value bisa berisikan tipe data apapun
+pemanggilan: 1. namaObject.key
+             2. namaObject["key"]

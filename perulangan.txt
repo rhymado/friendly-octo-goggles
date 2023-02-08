@@ -1,0 +1,24 @@
+Perulangan
+
+1. looping for
+loop akan diulang hingga kondisi for loop bernilai false
+syntax: 
+for(inisialisasi iterator;kondisi perulangan;perubahan iterator){
+    implementasi kode yang berulang
+}
+
+kondisi perulangan dicek setiap akan melakukan perulangan
+
+2. looping while
+loop akan diulang hingga kondisi while bernilai false
+syntax:
+while (kondisi perulangan) {
+    implementasi kode yang berulang
+}
+
+3. looping do-while
+loop akan diulang hingga kondisi do-while bernilai false
+syntax:
+do{
+    implementasi kode yang berulang
+} while (kondisi)

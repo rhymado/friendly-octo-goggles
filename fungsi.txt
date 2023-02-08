@@ -1,0 +1,18 @@
+Fungsi
+Sekumpulan Kode
+syntax: 3
+
+1. deklarasi
+function namaVar (parameter/argumen){
+    implementasi
+}
+
+2. ekspresi
+tipeVar namaVar = function (parameter/argumen){
+    implementasi
+}
+
+3. arrow func (>= es6)
+tipeVar namaVar = (parameter/argumen) => {
+    implementasi
+}

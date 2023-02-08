@@ -1,0 +1,22 @@
+Pengondisian
+1. if-else
+syntax:
+if(kondisi){
+    jika kondisi terpenuhi
+} else {
+    jika kondisi tidak terpenuhi
+}
+
+2. switch-case
+syntax:
+switch(variabel yang akan dicek nilainya){
+    case ekspektasiNilai1:
+    case ekspektasiNilai2:
+    case ekspektasiNilai3:
+    dst
+    default: // digunakan jika tidak ada case yang terpenuhi
+}
+
+value and type equality (===)
+value and type inequality (!==)
+1 number == 1 string => true
